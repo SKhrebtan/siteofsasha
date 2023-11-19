@@ -1,12 +1,17 @@
 {
   "files": {
-    "main.css": "/siteofsasha/static/css/main.2e35888c.css",
-    "main.js": "/siteofsasha/static/js/main.d039741f.js",
+    "main.css": "/siteofsasha/static/css/main.d49d6353.css",
+    "main.js": "/siteofsasha/static/js/main.52da42ca.js",
+    "static/media/4.jpg": "/siteofsasha/static/media/4.8bfa487aa4af614c2f65.jpg",
+    "static/media/3.jpg": "/siteofsasha/static/media/3.819ab354177d702c0a4b.jpg",
+    "static/media/1.jpg": "/siteofsasha/static/media/1.c31cb8d773ff5e0d83f8.jpg",
+    "static/media/2.jpg": "/siteofsasha/static/media/2.6815b67ff3022368fd1e.jpg",
     "index.html": "/siteofsasha/index.html",
-    "main.d039741f.js.map": "/siteofsasha/static/js/main.d039741f.js.map"
+    "main.d49d6353.css.map": "/siteofsasha/static/css/main.d49d6353.css.map",
+    "main.52da42ca.js.map": "/siteofsasha/static/js/main.52da42ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e35888c.css",
-    "static/js/main.d039741f.js"
+    "static/css/main.d49d6353.css",
+    "static/js/main.52da42ca.js"
   ]
 }
