@@ -8,7 +8,10 @@ export const Layout = () => {
       <div >
           <AppBar/>
       <Suspense fallback={null}>
-        <div style={{padding: '20px',backgroundColor: 'yellow'}}>
+        <div style={{
+          // padding: '20px'
+          backgroundColor: 'yellow'
+        }}>
            <Outlet />
         </div>
                

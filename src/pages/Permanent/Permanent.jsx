@@ -1,4 +1,5 @@
 import { useTransition, animated } from '@react-spring/web';
+import { SwiperPermanent } from 'components/Swiper/Swiper';
 
 export const Permanent = () => {
  const transitions = useTransition(true, {
@@ -15,7 +16,10 @@ export const Permanent = () => {
         transitions(
       (styles, item) =>
         item && (
-                    <animated.div style={{ ...styles, minHeight: '90vh' }}>Permanent</animated.div>
+              <animated.div style={{ ...styles, width: '100%', minHeight: '90vh' }}>
+                <h1>Permanent</h1>
+          <SwiperPermanent/>    
+              </animated.div>
         ))
     )
 }
