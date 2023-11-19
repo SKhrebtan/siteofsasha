@@ -1,0 +1,18 @@
+import { Outlet } from 'react-router-dom';
+import { Suspense } from 'react';
+import { AppBar } from 'components/AppBar/AppBar';
+
+export const Layout = () => {
+ 
+  return (
+      <div >
+          <AppBar/>
+      <Suspense fallback={null}>
+        <div style={{padding: '20px',backgroundColor: 'yellow'}}>
+           <Outlet />
+        </div>
+               
+    </Suspense>
+    </div>
+  );
+};
