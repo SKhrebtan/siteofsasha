@@ -14,13 +14,20 @@ export const StyledListItem = styled.li`
 `
 
 export const StyledLink = styled(NavLink)`
-  color: black;
+  color: white;
   text-decoration: none;
-    
+  
+font-family:Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1.2px;
+transition: all 300ms linear;
   &.active {
-    color: orange;
+    color: black;
   }
   &:hover{
-   color: orange;
+   color: black;
   }
 `;

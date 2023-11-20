@@ -2,6 +2,6 @@ import { styled } from "styled-components";
 
 export const StyledAppBarDiv = styled.div`
 position; relative;
-padding: 20px;
-background-color: #DE3163;
+padding: 14px 20px;
+background-color: #009999;
 `

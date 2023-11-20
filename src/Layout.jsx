@@ -15,10 +15,7 @@ export const Layout = () => {
       <div >
       <AppBar showModal={showModal} handleModal={handleModal} />
       <Suspense fallback={null}>
-        <div style={{
-          // padding: '20px'
-          backgroundColor: 'yellow'
-        }}>
+        <div>
           {showModal ? <MobileMenu handleModal={handleModal} /> :<Outlet />}
         </div>
                

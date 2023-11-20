@@ -18,8 +18,8 @@ html {
 }
 body {
   overflow-x: hidden;
-  background: #fff;
-
+  background: black;
+  color: #fff;
  }
 
 img {
