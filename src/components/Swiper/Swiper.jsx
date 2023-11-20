@@ -19,11 +19,8 @@ export const SwiperPermanent = () => {
               modules={[Autoplay]}
     //   spaceBetween={5}
       slidesPerView={1}
-    
-     loop={true}
-          onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
-    >
+         loop={true}
+     >
             <SwiperSlide className="slide"><img alt='ameli' src={photo1 } />erve</SwiperSlide>
             <SwiperSlide className="slide"><img alt='ameli' src={photo2 } />ervre</SwiperSlide>
             <SwiperSlide className="slide"><img alt='ameli' src={photo3 } />ervre</SwiperSlide>
@@ -40,7 +37,6 @@ export const SwiperPermanent = () => {
           }}
      loop={true}
        
-      onSlideChange={() => console.log('slide change')}
     >
             <SwiperSlide><img alt='ameli' src={photo1 } />erve</SwiperSlide>
             <SwiperSlide><img alt='ameli' src={photo2 } />ervre</SwiperSlide>

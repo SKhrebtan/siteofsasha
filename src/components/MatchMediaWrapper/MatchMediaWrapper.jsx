@@ -1,16 +1,18 @@
 import { useState, useEffect } from 'react';
 import { NavBar } from 'components/NavBar/NavBar';
-import { MobileMenuButton } from 'components/MobileMenuButton/MobileMenuButton';
+import { MobileMenuButton} from 'components/MobileMenuButton/MobileMenuButton';
 
-export const MatchMediaWrapper = () => {
+export const MatchMediaWrapper = ({showModal, handleModal}) => {
     const [isNarrowScreen, setIsNarrowScreen] = useState(false);
-    
+   
      useEffect(() => {
        const mediaWatcher = window.matchMedia("(min-width: 600px)");
-           setIsNarrowScreen(mediaWatcher.matches);
-              function updateIsNarrowScreen(e) {
-               setIsNarrowScreen(e.matches);
-       }
+       setIsNarrowScreen(mediaWatcher.matches);
+     
+       function updateIsNarrowScreen(e) {
+         setIsNarrowScreen(e.matches);
+         handleModal(false)
+                }
        if(mediaWatcher.addEventListener) {
       mediaWatcher.addEventListener('change', updateIsNarrowScreen)
       return function cleanup() {
@@ -23,6 +25,6 @@ export const MatchMediaWrapper = () => {
       }
     }
     
-     }, [isNarrowScreen]);
-    return isNarrowScreen ? <NavBar/> : <MobileMenuButton/>;
+     }, [handleModal, isNarrowScreen]);
+  return isNarrowScreen ? <NavBar /> : <MobileMenuButton showModal={showModal} handleModal={handleModal} />;
 }
