@@ -1,17 +1,19 @@
 {
   "files": {
     "main.css": "/siteofsasha/static/css/main.d49d6353.css",
-    "main.js": "/siteofsasha/static/js/main.52da42ca.js",
+    "main.js": "/siteofsasha/static/js/main.9927f176.js",
     "static/media/4.jpg": "/siteofsasha/static/media/4.8bfa487aa4af614c2f65.jpg",
     "static/media/3.jpg": "/siteofsasha/static/media/3.819ab354177d702c0a4b.jpg",
     "static/media/1.jpg": "/siteofsasha/static/media/1.c31cb8d773ff5e0d83f8.jpg",
     "static/media/2.jpg": "/siteofsasha/static/media/2.6815b67ff3022368fd1e.jpg",
     "index.html": "/siteofsasha/index.html",
+    "static/media/closenew.svg": "/siteofsasha/static/media/closenew.6aa3238b2436fedc9beda0af53e0e383.svg",
+    "static/media/burgermenu.svg": "/siteofsasha/static/media/burgermenu.c87935d537a09fd9303845b90d17236d.svg",
     "main.d49d6353.css.map": "/siteofsasha/static/css/main.d49d6353.css.map",
-    "main.52da42ca.js.map": "/siteofsasha/static/js/main.52da42ca.js.map"
+    "main.9927f176.js.map": "/siteofsasha/static/js/main.9927f176.js.map"
   },
   "entrypoints": [
     "static/css/main.d49d6353.css",
-    "static/js/main.52da42ca.js"
+    "static/js/main.9927f176.js"
   ]
 }
