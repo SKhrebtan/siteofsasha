@@ -11,6 +11,6 @@ export const NavBar = () => {
                 <StyledListItem><StyledLink to="/eyebrows">Архітектура брів</StyledLink></StyledListItem>
                 <StyledListItem><StyledLink to="/courses">Курси</StyledLink></StyledListItem>
             </StyledList>
-        </StyledNav>
+                   </StyledNav>
     )
 }

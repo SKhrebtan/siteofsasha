@@ -1,6 +1,5 @@
 import { styled } from "styled-components";
 import { NavLink } from 'react-router-dom';
-
 export const StyledNav = styled.nav`
 
 `
@@ -31,3 +30,5 @@ transition: all 300ms linear;
    color: black;
   }
 `;
+
+

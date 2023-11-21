@@ -1,5 +1,6 @@
 import { useTransition, animated } from '@react-spring/web';
-
+import { SwiperHome } from 'components/Swiper/Swiper';
+import { homeSwiperData } from 'components/Swiper/data/home';
 export const Home = () => {
    
     const transitions = useTransition(true, {
@@ -16,7 +17,9 @@ export const Home = () => {
         transitions(
       (styles, item) =>
         item && (
-        <animated.div style={{ ...styles, minHeight: '90vh' }}>Home</animated.div>
+              <animated.div style={{ ...styles, minHeight: '90vh' }}>
+                <SwiperHome data={homeSwiperData} />
+        </animated.div>
         ))
     )
 }

@@ -1,4 +1,4 @@
-import { StyledList, StyledListItem, StyledNavLink } from './MobileMenu.styled';
+import { StyledList, StyledListItem, StyledNavLink, StyledFacebookSvg, StyledTelegramSvg,StyledInstaSvg,StyledSocialList,StyledViberSvg,StyledSocialLink,StyledPhoneSvg,StyledPhoneNumber } from './MobileMenu.styled';
 import { useTransition, animated } from '@react-spring/web';
 
 export const MobileMenu = ({handleModal}) => {
@@ -18,7 +18,7 @@ export const MobileMenu = ({handleModal}) => {
          transitions(
       (styles, item) =>
         item && (
-                     <animated.div style={{ ...styles, minHeight: '100vh', backgroundColor: 'tomato' }}>
+                     <animated.div style={{ ...styles, minHeight: '100vh', backgroundColor: 'black' }}>
               <StyledList>
                              <StyledListItem><StyledNavLink to="/" onClick={() => handleModal(false)}>Домашня</StyledNavLink></StyledListItem>
                              <StyledListItem><StyledNavLink to="/permanent" onClick={()=>handleModal(false)}>Перманент</StyledNavLink></StyledListItem>
@@ -26,6 +26,14 @@ export const MobileMenu = ({handleModal}) => {
                 <StyledListItem><StyledNavLink to="/eyebrows" onClick={()=>handleModal(false)}>Архітектура брів</StyledNavLink></StyledListItem>
                 <StyledListItem><StyledNavLink to="/courses" onClick={()=>handleModal(false)}>Курси</StyledNavLink></StyledListItem>
                  </StyledList>
+                 <StyledSocialList>
+                   
+                   <li><StyledSocialLink><StyledFacebookSvg /></StyledSocialLink></li>
+                   <li><StyledSocialLink><StyledTelegramSvg /></StyledSocialLink></li>
+                   <li><StyledSocialLink><StyledInstaSvg /></StyledSocialLink></li>
+                   <li><StyledSocialLink><StyledViberSvg/></StyledSocialLink></li>
+                 </StyledSocialList>
+                 <StyledPhoneNumber><StyledPhoneSvg/> +380508832226</StyledPhoneNumber>
         </animated.div>))
     )
 }
