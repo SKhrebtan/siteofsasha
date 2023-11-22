@@ -18,7 +18,7 @@ export const MobileMenu = ({handleModal}) => {
          transitions(
       (styles, item) =>
         item && (
-                     <animated.div style={{ ...styles, minHeight: '100vh', backgroundColor: 'black' }}>
+                     <animated.div style={{ ...styles, width: '100%', minHeight: '100vh', backgroundColor: 'black' }}>
               <StyledList>
                              <StyledListItem><StyledNavLink to="/" onClick={() => handleModal(false)}>Домашня</StyledNavLink></StyledListItem>
                              <StyledListItem><StyledNavLink to="/permanent" onClick={()=>handleModal(false)}>Перманент</StyledNavLink></StyledListItem>

@@ -15,7 +15,7 @@ export const Layout = () => {
       <div >
       <AppBar showModal={showModal} handleModal={handleModal} />
       <Suspense fallback={null}>
-        <div>
+        <div style={{width: '100%', overflowX: 'hidden'}}>
           {showModal ? <MobileMenu handleModal={handleModal} /> :<Outlet />}
         </div>
                
