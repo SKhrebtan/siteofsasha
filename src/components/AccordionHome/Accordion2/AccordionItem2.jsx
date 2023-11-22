@@ -9,7 +9,7 @@ export const AccordionItem2 = ({ faqItem, onClick, isOpen }) => {
             <button
                 onClick={()=>onClick()}
                 type='button'
-                className='accordion-header'>
+                className='accordion-header2'>
                 {faqItem.q}
                 <ArrowSvg className={`accordion-arrow ${isOpen ? 'active' : ''}`} />
             </button>

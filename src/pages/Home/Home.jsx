@@ -3,7 +3,7 @@ import { SwiperHome } from 'components/Swiper/Swiper';
 import { homeSwiperData } from 'components/Swiper/data/home';
 import { Accordion } from 'components/AccordionHome/Accordion';
 import { Accordion2 } from 'components/AccordionHome/Accordion2/Accordion2';
-
+import { VideoHome } from 'components/VideoHome/VideoHome';
 export const Home = () => {
    
     const transitions = useTransition(true, {
@@ -22,6 +22,7 @@ export const Home = () => {
         item && (
               <animated.div style={{ ...styles, minHeight: '90vh' }}>
                 <SwiperHome data={homeSwiperData} />
+                <VideoHome/>
                 <Accordion />
                 <Accordion2/>
         </animated.div>
