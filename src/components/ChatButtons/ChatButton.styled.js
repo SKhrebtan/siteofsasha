@@ -8,6 +8,9 @@ right:20px;
 
 .main-button{
     position:relative;
+    width:50px;
+    height:50px;
+    outline: none;
     border: none;
     border-radius: 50%;
     padding:10px;
@@ -19,7 +22,10 @@ right:20px;
     justify-content: center;
     box-shadow: 0 0 3px 3px rgba(0, 153, 153, 0.5);
 }
-
+.close-svg{
+    width:30px;
+    height:30px;
+}
 .secondary-button{
     position: absolute;
     top:0;

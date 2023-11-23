@@ -1,11 +1,13 @@
 import { StyledContainer, StyledChatSvg } from "./ChatButton.styled";
 import { useState } from "react";
 import { useTransition, animated } from '@react-spring/web';
-import { ReactComponent as FacebookSvg } from 'img/socials/facebook2.svg'
-import { ReactComponent as InstaSvg } from 'img/insta2.svg'
-import { ReactComponent as TelegramSvg } from 'img/socials/telegram.svg'
-import { ReactComponent as ViberSvg } from 'img/viber2.svg'
- 
+import { ReactComponent as FacebookSvg } from 'img/socials/facebook2.svg';
+import { ReactComponent as InstaSvg } from 'img/insta2.svg';
+import { ReactComponent as TelegramSvg } from 'img/socials/telegram.svg';
+import { ReactComponent as ViberSvg } from 'img/viber2.svg';
+import { ReactComponent as CloseSvg } from 'img/close2.svg';
+import { motion } from "framer-motion";
+
 export const ChatButton = () => {
     const [showButtons, setShowButtons] = useState(false);
 
@@ -45,11 +47,27 @@ export const ChatButton = () => {
     },
     leave: { opacity: 0, transform: 'translateX(0px)' },   
     })
+
+const variants = {
+  open: { opacity: 1, rotate: '0deg' ,transition: { duration: 1 }   },
+  closed: { opacity: 0, rotate: '720deg', transition: { duration: 1 } },
+}
+
     
     return (
         <StyledContainer>
             <button onClick={()=> setShowButtons(!showButtons)} className="main-button" type="button">
-                <StyledChatSvg/>
+                {/* {showButtons ? <CloseSvg className="close-svg" /> : <StyledChatSvg />} */}
+                <motion.div animate={showButtons ? "closed" : "open"}
+                    variants={variants}
+                style={{position: 'absolute'}}
+                >
+                    <StyledChatSvg  />
+                </motion.div>
+                 <motion.div animate={showButtons ? "open" : "closed"}
+                        variants={variants}>
+                    <CloseSvg  />
+                </motion.div>
             </button>
             {transitions(
                 (styles, item) =>
