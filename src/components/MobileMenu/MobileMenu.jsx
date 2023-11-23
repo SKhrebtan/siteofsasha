@@ -32,12 +32,14 @@ export const MobileMenu = ({handleModal}) => {
                              target="_blank"
                              rel="noopener noreferrer"><StyledFacebookSvg
                      /></StyledSocialLink></li>
-                   <li><StyledSocialLink><StyledTelegramSvg /></StyledSocialLink></li>
+                   <li><StyledSocialLink href='https://t.me/lesya_permanent_khrebtan'  target="_blank"
+                             rel="noopener noreferrer"><StyledTelegramSvg /></StyledSocialLink></li>
                    <li><StyledSocialLink
                      href="https://www.instagram.com/lesya_permanent_if/"
                              target="_blank"
                              rel="noopener noreferrer" ><StyledInstaSvg/></StyledSocialLink></li>
-                   <li><StyledSocialLink><StyledViberSvg/></StyledSocialLink></li>
+                   <li><StyledSocialLink href='viber://chat?number=380508832226'  target="_blank"
+                             rel="noopener noreferrer"><StyledViberSvg/></StyledSocialLink></li>
                  </StyledSocialList>
                  <StyledPhoneNumber><StyledPhoneSvg/> +380508832226</StyledPhoneNumber>
         </animated.div>))

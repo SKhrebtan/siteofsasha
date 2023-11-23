@@ -60,13 +60,15 @@ const variants = {
                 {/* {showButtons ? <CloseSvg className="close-svg" /> : <StyledChatSvg />} */}
                 <motion.div animate={showButtons ? "closed" : "open"}
                     variants={variants}
-                style={{position: 'absolute'}}
+                style={{position: 'absolute', width: '30px', height: '30px'}}
                 >
                     <StyledChatSvg  />
                 </motion.div>
                  <motion.div animate={showButtons ? "open" : "closed"}
-                        variants={variants}>
-                    <CloseSvg  />
+                    variants={variants}
+                    style={{ position: 'absolute', width: '30px', height: '30px' }}
+                >
+                    <CloseSvg className="close-svg" />
                 </motion.div>
             </button>
             {transitions(
