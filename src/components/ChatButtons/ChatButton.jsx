@@ -54,16 +54,18 @@ export const ChatButton = () => {
             {transitions(
                 (styles, item) =>
                     item && (
-                        <animated.button style={styles} className="secondary-button viber-button" type='button'>
+                        <animated.a href='viber://chat?number=380508832226'  target="_blank"
+                             rel="noopener noreferrer" style={styles} className="secondary-button viber-button" type='button'>
                             <ViberSvg className='svg' />
-                        </animated.button>
+                        </animated.a>
                     ))}
             {transitions2(
                 (styles, item) =>
                     item && (
-                        <animated.button style={styles} className="secondary-button telegram-button" type='button'>
+                        <animated.a href='https://t.me/lesya_permanent_khrebtan'  target="_blank"
+                             rel="noopener noreferrer" style={styles} className="secondary-button telegram-button" type='button'>
                             <TelegramSvg className='svg' />
-                        </animated.button>
+                        </animated.a>
                     ))}
              {transitions3(
                 (styles, item) =>
