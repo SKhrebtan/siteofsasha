@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/siteofsasha/static/css/main.73d2b0b9.css",
-    "main.js": "/siteofsasha/static/js/main.2605a7a0.js",
+    "main.js": "/siteofsasha/static/js/main.7ab23c42.js",
     "static/media/4.jpg": "/siteofsasha/static/media/4.8bfa487aa4af614c2f65.jpg",
     "static/media/3.jpg": "/siteofsasha/static/media/3.819ab354177d702c0a4b.jpg",
     "static/media/1.jpg": "/siteofsasha/static/media/1.c31cb8d773ff5e0d83f8.jpg",
@@ -14,6 +14,7 @@
     "static/media/telegram.svg": "/siteofsasha/static/media/telegram.d511923f99b14508e3cf009492e938df.svg",
     "static/media/facebook2.svg": "/siteofsasha/static/media/facebook2.e30348ac19ad17b87b494922c06f64a0.svg",
     "static/media/closenew.svg": "/siteofsasha/static/media/closenew.6aa3238b2436fedc9beda0af53e0e383.svg",
+    "static/media/close2.svg": "/siteofsasha/static/media/close2.8bcf861b1b4ea99e7f78e969883b1d28.svg",
     "static/media/burgermenu.svg": "/siteofsasha/static/media/burgermenu.0ce4eca3da7fc0673fc3469007547c4b.svg",
     "static/media/chat.svg": "/siteofsasha/static/media/chat.dc394bf4c9db7e5ca36bd0a2929be7b2.svg",
     "static/media/facebook.svg": "/siteofsasha/static/media/facebook.ce75ae04a9be7e6e7e88ebc04c0d36d0.svg",
@@ -22,10 +23,10 @@
     "static/media/plus.svg": "/siteofsasha/static/media/plus.6f3e83c843a8c20b37f12daced6646f3.svg",
     "static/media/phone.svg": "/siteofsasha/static/media/phone.12ba88bbe81bb98fc5f969801473564f.svg",
     "main.73d2b0b9.css.map": "/siteofsasha/static/css/main.73d2b0b9.css.map",
-    "main.2605a7a0.js.map": "/siteofsasha/static/js/main.2605a7a0.js.map"
+    "main.7ab23c42.js.map": "/siteofsasha/static/js/main.7ab23c42.js.map"
   },
   "entrypoints": [
     "static/css/main.73d2b0b9.css",
-    "static/js/main.2605a7a0.js"
+    "static/js/main.7ab23c42.js"
   ]
 }
