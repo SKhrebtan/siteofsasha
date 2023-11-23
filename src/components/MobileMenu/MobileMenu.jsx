@@ -28,9 +28,15 @@ export const MobileMenu = ({handleModal}) => {
                  </StyledList>
                  <StyledSocialList>
                    
-                   <li><StyledSocialLink><StyledFacebookSvg /></StyledSocialLink></li>
+                   <li><StyledSocialLink  href="https://www.facebook.com/profile.php?id=100011453648326&locale=uk_UA"
+                             target="_blank"
+                             rel="noopener noreferrer"><StyledFacebookSvg
+                     /></StyledSocialLink></li>
                    <li><StyledSocialLink><StyledTelegramSvg /></StyledSocialLink></li>
-                   <li><StyledSocialLink><StyledInstaSvg /></StyledSocialLink></li>
+                   <li><StyledSocialLink
+                     href="https://www.instagram.com/lesya_permanent_if/"
+                             target="_blank"
+                             rel="noopener noreferrer" ><StyledInstaSvg/></StyledSocialLink></li>
                    <li><StyledSocialLink><StyledViberSvg/></StyledSocialLink></li>
                  </StyledSocialList>
                  <StyledPhoneNumber><StyledPhoneSvg/> +380508832226</StyledPhoneNumber>
