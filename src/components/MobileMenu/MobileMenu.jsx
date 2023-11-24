@@ -18,7 +18,7 @@ export const MobileMenu = ({handleModal}) => {
          transitions(
       (styles, item) =>
         item && (
-                     <animated.div style={{ ...styles, width: '100%', minHeight: '100vh', backgroundColor: 'black' }}>
+               <animated.div style={{ ...styles, width: '100%', minHeight: '100vh', backgroundColor: 'black', position: 'relative', zIndex: '1001' }}>
               <StyledList>
                              <StyledListItem><StyledNavLink to="/" onClick={() => handleModal(false)}>Домашня</StyledNavLink></StyledListItem>
                              <StyledListItem><StyledNavLink to="/permanent" onClick={()=>handleModal(false)}>Перманент</StyledNavLink></StyledListItem>
@@ -27,17 +27,17 @@ export const MobileMenu = ({handleModal}) => {
                 <StyledListItem><StyledNavLink to="/courses" onClick={()=>handleModal(false)}>Курси</StyledNavLink></StyledListItem>
                  </StyledList>
                  <StyledSocialList>
-                   
+                   <li><StyledSocialLink
+                     href="https://www.instagram.com/lesya_permanent_if/"
+                             target="_blank"
+                             rel="noopener noreferrer" ><StyledInstaSvg/></StyledSocialLink></li>
                    <li><StyledSocialLink  href="https://www.facebook.com/profile.php?id=100011453648326&locale=uk_UA"
                              target="_blank"
                              rel="noopener noreferrer"><StyledFacebookSvg
                      /></StyledSocialLink></li>
                    <li><StyledSocialLink href='https://t.me/lesya_permanent_khrebtan'  target="_blank"
                              rel="noopener noreferrer"><StyledTelegramSvg /></StyledSocialLink></li>
-                   <li><StyledSocialLink
-                     href="https://www.instagram.com/lesya_permanent_if/"
-                             target="_blank"
-                             rel="noopener noreferrer" ><StyledInstaSvg/></StyledSocialLink></li>
+                   
                    <li><StyledSocialLink href='viber://chat?number=380508832226'  target="_blank"
                              rel="noopener noreferrer"><StyledViberSvg/></StyledSocialLink></li>
                  </StyledSocialList>
