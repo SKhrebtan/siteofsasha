@@ -28,9 +28,9 @@
   background-color: #0000cc;
 } */
 
-.accordion-item2:not(:last-child) {
+/* .accordion-item2:not(:last-child) {
   margin-bottom: 16px;
-}
+} */
 
 .accordion-header2 {
   position: relative;

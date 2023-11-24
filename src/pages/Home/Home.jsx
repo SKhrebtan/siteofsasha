@@ -4,7 +4,7 @@ import { homeSwiperData } from 'components/Swiper/data/home';
 import { Accordion } from 'components/AccordionHome/Accordion';
 import { Accordion2 } from 'components/AccordionHome/Accordion2/Accordion2';
 import { VideoHome } from 'components/VideoHome/VideoHome';
-
+import { ContactForm } from 'components/FormDiscont/FormDiscont';
 export const Home = () => {
    
     const transitions = useTransition(true, {
@@ -25,6 +25,7 @@ export const Home = () => {
                 <SwiperHome data={homeSwiperData} />
                 <VideoHome/>
                 <Accordion />
+                <ContactForm/>
                 <Accordion2 />
         </animated.div>
         ))
