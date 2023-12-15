@@ -1,6 +1,25 @@
 import { StyledMailSvg, StyledForm, StyledInputsBlock, StyledContainer, CssTextField, FormControlWrap } from "./FormDiscont.styled";
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import { validationSchema } from "./validationSchema";
+import axios from 'axios';
+
+const handleSubmit = async (values) => {
+
+  const { name, email, phone } = values;
+  
+   try {
+    const formData = {
+      name,
+      email,
+      phone
+    }
+  
+    await axios.post('http://localhost:3333/api/v1/users', formData)
+  } catch (error) {
+    console.log(error.message)
+  }
+
+}
 
 export const ContactForm = () => {
     const initialValues = {
@@ -15,7 +34,7 @@ export const ContactForm = () => {
         <Formik
       initialValues={initialValues}
       validationSchema={validationSchema}
-    //   onSubmit={handleSubmit}
+      onSubmit={handleSubmit}
     >
                     <StyledForm as={Form}>
                         

@@ -1,7 +1,7 @@
 import photo1 from 'img/home/1.jpg'
-import photo2 from 'img/home/2.jpg'
-import photo3 from 'img/home/3.jpg'
-import photo4 from 'img/home/4.jpg'
+import photo2 from 'img/home/1.jpg'
+import photo3 from 'img/home/1.jpg'
+import photo4 from 'img/home/1.jpg'
 
 export const homeSwiperData = [
     {
