@@ -1,11 +1,7 @@
 {
   "files": {
-    "main.css": "/siteofsasha/static/css/main.8f112555.css",
-    "main.js": "/siteofsasha/static/js/main.97869132.js",
-    "static/media/4.jpg": "/siteofsasha/static/media/4.8bfa487aa4af614c2f65.jpg",
-    "static/media/3.jpg": "/siteofsasha/static/media/3.819ab354177d702c0a4b.jpg",
-    "static/media/1.jpg": "/siteofsasha/static/media/1.c31cb8d773ff5e0d83f8.jpg",
-    "static/media/2.jpg": "/siteofsasha/static/media/2.6815b67ff3022368fd1e.jpg",
+    "main.css": "/siteofsasha/static/css/main.099a93fb.css",
+    "main.js": "/siteofsasha/static/js/main.e61afd49.js",
     "static/media/viber.svg": "/siteofsasha/static/media/viber.0abfab75a13388c8ee34cbd9b72fc141.svg",
     "static/media/insta2.svg": "/siteofsasha/static/media/insta2.0b3e8a0c68c61f6f9de668820032ea7d.svg",
     "static/media/viber2.svg": "/siteofsasha/static/media/viber2.943cccb9d1d4e39722db431baee367a9.svg",
@@ -23,11 +19,11 @@
     "static/media/arrowdown2.svg": "/siteofsasha/static/media/arrowdown2.e61cc3a5f09317e5624cd302280bf5a3.svg",
     "static/media/plus.svg": "/siteofsasha/static/media/plus.6f3e83c843a8c20b37f12daced6646f3.svg",
     "static/media/phone.svg": "/siteofsasha/static/media/phone.12ba88bbe81bb98fc5f969801473564f.svg",
-    "main.8f112555.css.map": "/siteofsasha/static/css/main.8f112555.css.map",
-    "main.97869132.js.map": "/siteofsasha/static/js/main.97869132.js.map"
+    "main.099a93fb.css.map": "/siteofsasha/static/css/main.099a93fb.css.map",
+    "main.e61afd49.js.map": "/siteofsasha/static/js/main.e61afd49.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f112555.css",
-    "static/js/main.97869132.js"
+    "static/css/main.099a93fb.css",
+    "static/js/main.e61afd49.js"
   ]
 }
