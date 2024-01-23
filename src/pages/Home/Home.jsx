@@ -22,8 +22,8 @@ export const Home = () => {
       (styles, item) =>
         item && (
               <animated.div style={{ ...styles, position: 'relative'}}>
-                <SwiperHome data={homeSwiperData} />
-                <VideoHome/>
+                {/* <SwiperHome data={homeSwiperData} /> */}
+                {/* <VideoHome/> */}
                 <Accordion />
                 <ContactForm/>
                 <Accordion2 />

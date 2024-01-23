@@ -14,7 +14,7 @@ const handleSubmit = async (values) => {
       phone
     }
   
-    await axios.post('http://localhost:3333/api/v1/users', formData)
+    await axios.post('https://solbackend.onrender.com/api/v1/users', formData)
   } catch (error) {
     console.log(error.message)
   }
