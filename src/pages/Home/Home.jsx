@@ -6,6 +6,7 @@ import { Accordion2 } from 'components/AccordionHome/Accordion2/Accordion2';
 // import { VideoHome } from 'components/VideoHome/VideoHome';
 import { ContactForm } from 'components/FormDiscont/FormDiscont';
 import HowItWorks from 'components/NewCoolAccordion/AccoridonWrapper';
+import ContactUs from 'components/VariableForm/VariableForm';
 export const Home = () => {
    
     const transitions = useTransition(true, {
@@ -26,8 +27,9 @@ export const Home = () => {
                 {/* <SwiperHome data={homeSwiperData} /> */}
                 {/* <VideoHome/> */}
                 <Accordion />
-                <HowItWorks/>
-                <ContactForm className='bg-blue-500'/>
+                <HowItWorks />
+                <ContactUs/>
+                <ContactForm />
                 <Accordion2 />
         </animated.div>
         ))
