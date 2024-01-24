@@ -40,7 +40,7 @@ const ContactUs = () => {
                         >
                            Опт
                         </button>
-                        <span className="absolute bottom-0 ml-0 h-[2px] bg-black transition-all duration-300 ease-out"
+                        <span className="absolute bottom-0 ml-0 h-[2px] bg-customBorder transition-all duration-300 ease-out"
                               style={indicatorStyle}></span>
                     </nav>
                     <div className="md:w-full flex flex-col">
