@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/siteofsasha/static/css/main.1e59eeec.css",
-    "main.js": "/siteofsasha/static/js/main.77ead777.js",
+    "main.css": "/siteofsasha/static/css/main.260476ff.css",
+    "main.js": "/siteofsasha/static/js/main.30b8174d.js",
     "static/media/how-it-works.jpeg": "/siteofsasha/static/media/how-it-works.9f82012b031cc2159dbb.jpeg",
     "static/media/abs1.jpeg": "/siteofsasha/static/media/abs1.662eb43105127c957f5a.jpeg",
     "static/media/abs2.jpeg": "/siteofsasha/static/media/abs2.1dfc97190b90fcd69ff7.jpeg",
@@ -24,11 +24,11 @@
     "static/media/arrowdown2.svg": "/siteofsasha/static/media/arrowdown2.e61cc3a5f09317e5624cd302280bf5a3.svg",
     "static/media/plus.svg": "/siteofsasha/static/media/plus.6f3e83c843a8c20b37f12daced6646f3.svg",
     "static/media/phone.svg": "/siteofsasha/static/media/phone.12ba88bbe81bb98fc5f969801473564f.svg",
-    "main.1e59eeec.css.map": "/siteofsasha/static/css/main.1e59eeec.css.map",
-    "main.77ead777.js.map": "/siteofsasha/static/js/main.77ead777.js.map"
+    "main.260476ff.css.map": "/siteofsasha/static/css/main.260476ff.css.map",
+    "main.30b8174d.js.map": "/siteofsasha/static/js/main.30b8174d.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e59eeec.css",
-    "static/js/main.77ead777.js"
+    "static/css/main.260476ff.css",
+    "static/js/main.30b8174d.js"
   ]
 }
