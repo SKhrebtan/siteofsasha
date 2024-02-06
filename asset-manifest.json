@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/siteofsasha/static/css/main.758ce442.css",
-    "main.js": "/siteofsasha/static/js/main.2f3de80b.js",
+    "main.css": "/siteofsasha/static/css/main.fe8f3c50.css",
+    "main.js": "/siteofsasha/static/js/main.f2b084b8.js",
     "static/media/how-it-works.jpeg": "/siteofsasha/static/media/how-it-works.9f82012b031cc2159dbb.jpeg",
     "static/media/abs1.jpeg": "/siteofsasha/static/media/abs1.662eb43105127c957f5a.jpeg",
     "static/media/abs2.jpeg": "/siteofsasha/static/media/abs2.1dfc97190b90fcd69ff7.jpeg",
     "static/media/abs3.jpeg": "/siteofsasha/static/media/abs3.26c37ef849f7127406f5.jpeg",
     "static/media/abs4.jpeg": "/siteofsasha/static/media/abs4.c1d7bff6690b855765f7.jpeg",
     "static/media/viber.svg": "/siteofsasha/static/media/viber.0abfab75a13388c8ee34cbd9b72fc141.svg",
+    "static/media/gear.svg": "/siteofsasha/static/media/gear.4825083f6f82b6b903414190a00ca46d.svg",
     "static/media/insta2.svg": "/siteofsasha/static/media/insta2.0b3e8a0c68c61f6f9de668820032ea7d.svg",
     "static/media/viber2.svg": "/siteofsasha/static/media/viber2.943cccb9d1d4e39722db431baee367a9.svg",
     "static/media/mail.svg": "/siteofsasha/static/media/mail.7c2639fbc1e4e7f8a7075767353f73e3.svg",
@@ -23,12 +24,13 @@
     "static/media/minus.svg": "/siteofsasha/static/media/minus.411838e0a09371500273eddfc573aa70.svg",
     "static/media/arrowdown2.svg": "/siteofsasha/static/media/arrowdown2.e61cc3a5f09317e5624cd302280bf5a3.svg",
     "static/media/plus.svg": "/siteofsasha/static/media/plus.6f3e83c843a8c20b37f12daced6646f3.svg",
+    "static/media/arrowdown.svg": "/siteofsasha/static/media/arrowdown.a060a4cb67aef58fd34755898d8033eb.svg",
     "static/media/phone.svg": "/siteofsasha/static/media/phone.12ba88bbe81bb98fc5f969801473564f.svg",
-    "main.758ce442.css.map": "/siteofsasha/static/css/main.758ce442.css.map",
-    "main.2f3de80b.js.map": "/siteofsasha/static/js/main.2f3de80b.js.map"
+    "main.fe8f3c50.css.map": "/siteofsasha/static/css/main.fe8f3c50.css.map",
+    "main.f2b084b8.js.map": "/siteofsasha/static/js/main.f2b084b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.758ce442.css",
-    "static/js/main.2f3de80b.js"
+    "static/css/main.fe8f3c50.css",
+    "static/js/main.f2b084b8.js"
   ]
 }
