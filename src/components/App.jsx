@@ -16,6 +16,6 @@ export const App = () => {
         <Route path="/eyebrows" element={<Eyebrows />} />
         <Route path="/courses" element={<Courses />} />
          </Route>
-        </Routes>
+      </Routes>
   );
 };
